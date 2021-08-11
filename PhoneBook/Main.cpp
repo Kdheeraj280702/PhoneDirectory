@@ -180,7 +180,7 @@ void Operation(int choice)
 }
 int main()
 {
-	//MyPhone.read_from_file();
+	MyPhone.read_from_file();
 	MyPhone.search("aa", 1);
 	while (1)
 	{
@@ -190,5 +190,6 @@ int main()
 		Operation(choice);
 
 	}
+	return 0;
 
 }
